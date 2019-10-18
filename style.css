@@ -17,19 +17,19 @@ body {
 }
 
 .vertical-menu a {
-  background-color: #eee;
-  color: black;
+  background-color:#bbd5fc ;
+  color: White;
   display: block;
   padding: 12px;
   text-decoration: none;
 }
 
 .vertical-menu a:hover {
-  background-color: #ccc;
+  background-color: #bbd5fc;
 }
 
 .vertical-menu a.active {
-  background-color: #4CAF50;
+  background-color:#bbd5fc ;
   color: white;
 }
 
