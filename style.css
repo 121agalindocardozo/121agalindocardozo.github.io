@@ -71,3 +71,9 @@ body {
 .table{
   font-size: 30px;
   }
+
+  img.pic:hover {
+    height: 310px;
+    width: 310px;
+    filter: brightness(150%);
+}
