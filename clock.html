@@ -2,10 +2,23 @@
 <head>
   <title>JS Digital Clock</title>
   <style type="text/css">
+    body{
+      background: #000;
+    }  
+    .clock{
+      postion: absolute;
+      top: 50%;
+      left: 50%;
+      transform translateX(-%50%) translateY(-&50%);
+      color: #fff;
+      font-size: 80px;
+      border: 1px solid #ccc;
+      padding: 0px 5px 0px 5px;
+    }
 </head>
   <body>
-<div class="MyCLockDisplay"></div>
-    <script type="javascript">
+<div id="MyCLockDisplay" class="clock"></div>
+    <script type="text/javascript">
 
       function showtime (){
       var date = new Date();
