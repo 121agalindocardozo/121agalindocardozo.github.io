@@ -1,23 +1,30 @@
-<!DOCTYPE HTML>
 <html>
+
 <head>
-  <title>My Portfolio</title>
-   <link rel="stylesheet" type="text/css" href="style.css">
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>JavaScript to do list</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-  <body background="galaxy.jpg">
-    <div class="container">
-  <div class="jumbotron" style="background-color:#341845; color:white;">
-  <h1 class="display-4">My Portfolio</h1>
-  <p class="lead">Alexander Galindo</p>
-</div>
-      <p class="lead">
-    <a class="btn btn-primary btn-lg" href="unit1.html" role="button" style="background-color:white; color:Purple;">Unit 1</a>
-  </p>
-  </div>      
-  </body>
+
+<body>
+
+    <div class="todo-wrapper">
+        <h2>My to-do list</h2>
+        <p>Double-click an item to mark it complete.</p>
+        <form name="todo-adder">
+            <input type="text" id="todo-entry-box" />
+        </form>
+        <button id="add-button" class="pretty-button">Add</button>
+        <br />
+        <ol id="todo-list">
+        </ol>
+        <div id="control-wrapper">
+            <button id="clear-completed-button" class="pretty-button">Clear Completed</button>
+            <button id="empty-button" class="pretty-button">Empty List</button>
+            <button id="save-button" class="pretty-button">Save List</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
