@@ -49,6 +49,31 @@ h1{
     margin: 10px;
 }
     </style>
+    
+    
+    <javascript>
+    function makeColourValue(){
+  return Math.round(Math.random()*225);
+}
+
+function setButtonColour(button, red, green, blue){
+  button.setAttribute('style', 
+  'background-color : rgb('+ red+ ',' + green + ',' + blue + ');'
+  );
+}
+
+var buttons = document.getElementByClassName('colourButton');
+
+var heading = document.getElementById('colourValue');
+
+var answerMessage = document.getElementById('answer');
+
+var answerButton = Math.round(Math.random() * (buttons.length - 1));
+
+for (var i = 0; i < buttons.length, i++) {
+
+  var red = makeColourValue();
+</javascript>
 <body>
     <h1>Guess the colour!</h1>
     <h2 id="colourValue"></h2>
